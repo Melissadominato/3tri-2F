@@ -7,7 +7,7 @@
 
 }
 body{
-    background-color: bisque;
+    background-color:#483D8B;
     font-family: 'Bai Jamjuree', sans-serif;
 }
 footer{
@@ -22,5 +22,28 @@ footer p{
     text-align: center;
     font-size: 0.6rem;
     margin: 0.5rem; 
+}
+#container{
+    display: flex;
+}
+.cartao{
+       margin: 2rem;
+       height: 20rem;
+       background-color: #D8BFD8;
+}
+
+.cartao-conteudo{
+    text-align: center;
+    height: 100%;
+ 
+}
+.cartao-conteudo h3{
+    background-color:#87CEFA    ;
+    color:black;
+    text-align: left;
+    padding: 0.5rem;
+    position: absolute;
+    border-radius: 0.6rem;
+    font-size: 1vw;
 }
 
